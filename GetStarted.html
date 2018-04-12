@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SheekMediaV2</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/WebsiteV2.js"></script>
+        <link rel="stylesheet" style="text/css" href="index.css">
+        <link rel="stylesheet" style="text/css" href="css/animate.css">
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+    </head>
+    <body>
+
+
+        <nav class="navbar navbar-expand-custom">
+            <a class="navbar-brand" href="#"><img id="sheek-logo-top" src="Pictures/FinalSheekMediaLogo.png" alt="SheekLogo"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTarget" aria-controls="navbarTogglerTarget" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerTarget">
+                <ul class="navbar-nav mt-2 mt-lg-0" id="nav-options-wrapper">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Welcome</a></li>
+                    <li class="nav-item"><a class="nav-link" href="OurTeam.html">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                    <li id="last-dropdown-nav-button" class="nav-item"><a class="nav-link" href="GetStarted.html">Get Started</a></li>
+                    <li id="last-nav-button" class="nav-item ignore-underline"><a href="GetStarted.html" class="nav-link btn animated-button victoria-three">GET STARTED</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="get-started-screen1">
+            <div class="green-accent-bar"></div>
+
+            <h1 id="start-header">Let's Work On A Project</h1>
+            <!--            <div id="start-divider"></div>-->
+
+            <div id="start-form-container" class="card col-xl-12 col-lg-12 col-md-12 col-sm-12">
+
+                <div id="start-divider"></div>
+
+                <div class="card-body">
+
+                    <form action="">
+
+                        <div class="form-header">Select an Objective: <span class="green-asterisk">*</span></div>
+                        <select class="input-field" name="reason" onchange="showfield(this.options[this.selectedIndex].value)">
+                            <option selected="selected">Choose an option ...</option>
+                            <option value="development">Developmental</option>
+                            <option value="rework">Modification/Rework</option>
+                            <option value="improve">Website Improvement</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <div id="other-field"></div>
+
+                        <div class="form-header">Name: <span class="green-asterisk">*</span></div>
+                        <input spellcheck="false" class="input-field" type="text" name="name">
+
+                        <div class="form-header">Email: <span class="green-asterisk">*</span></div>
+                        <input spellcheck="false" class="input-field" type="text" name="email">
+
+                        <div class="form-header">Phone:</div>
+                        <input spellcheck="false" class="input-field" type="text" name="phone">
+
+                        <div class="form-header">Company:</div>
+                        <input spellcheck="false" class="input-field" type="text" name="company">
+
+                        <div class="form-header">Some ideas or comments about your project <span class="green-asterisk">*</span></div>
+                        <textarea name="comments" id="comments-ideas" class="input-field" rows="10"></textarea>
+
+                        <br><br>
+
+                        <input id="start-submit-button" type="submit" value="Let's Begin">
+
+                        <br><br>
+
+                        <h4><span class="green-asterisk">*</span> Indicates required fields</h4>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <span id="sheek-column" class="footer-column col-lg-3 col-md-5">
+                <div id="sheek-logo-footer">
+                    <img src="Pictures/FinalSheekMediaLogo.png" alt="Sheek-logo">
+                </div>
+                <div id="footer-media-container">
+                    <h2>Follow Us On:</h2>
+                    <div class="footer-break-line"></div>
+                    <div id="footer-icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+
+                    <h2>Contact Us:</h2>
+                    <div class="footer-break-line"></div>
+                    <div id="footer-contact">
+                        <h3>5500 Campanile Drive, SD, 92128</h3>
+                        <h3>Phone(Toll-Free): (858)-263-5352</h3>
+                        <h3>SheekMedia@sdsu.edu</h3>
+                    </div>
+
+                </div>
+            </span>
+            <span class="footer-column col-lg-3 col-md-5">
+                <h1>Connect</h1>
+                <a href="#">Facebook</a>
+                <br>
+                <a href="#">Twitter</a>
+                <br>
+                <a href="#">Google+</a>
+                <br>
+            </span>
+            <span class="footer-column col-lg-3 col-md-5">
+                <h1>Company</h1>
+                <a href="#">Our Story</a>
+                <br>
+                <a href="#">Investors</a>
+                <br>
+                <a href="#">FAQ</a>
+                <br>
+            </span>
+            <span class="footer-column col-lg-3 col-md-5">
+                <h1>Other Services</h1>
+                <a href="#">Sheek Frames</a>
+                <br>
+                <a href="#">Sheek Development</a>
+                <br>
+                <a href="#">Sheek Airlines</a>
+                <br>
+            </span>
+        </div>
+
+    </body>
+</html>

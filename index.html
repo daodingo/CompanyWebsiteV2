@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>SheekMediaV2</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="WebsiteV2.js"></script>
+        <link rel="stylesheet" style="text/css" href="index.css">
+        <link rel="stylesheet" style="text/css" href="css/animate.css">
+        <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+    </head>
+    <body>
+
+
+        <nav class="navbar navbar-expand-custom">
+            <a class="navbar-brand" href="index.html"><img id="sheek-logo-top" src="Pictures/FinalSheekMediaLogo.png" alt="SheekLogo"></a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTarget" aria-controls="navbarTogglerTarget" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerTarget">
+                <ul class="navbar-nav mt-2 mt-lg-0" id="nav-options-wrapper">
+                    <li class="nav-item current-page"><a class="nav-link" href="index.html">Welcome</a></li>
+                    <li class="nav-item"><a class="nav-link" href="OurTeam.html">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                    <li id="last-dropdown-nav-button" class="nav-item"><a class="nav-link" href="GetStarted.html">Get Started</a></li>
+                    <li id="last-nav-button" class="nav-item ignore-underline"><a href="GetStarted.html" class="nav-link btn animated-button victoria-three">GET STARTED</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="welcome-screen1">
+            <video autoplay muted loop id="background-video">
+                <source src="Videos/darktintworkbackground.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
+            <div id="center-block1">
+                <div class="centered-text fadeIn animated">Explore the Possibilites of Fast and Responsive, Contemporary Web Design </div>
+                <div id="center-button-wrapper"><a href="Gallery.html" class="btn animated-button victoria-one fadeIn animated">EXPLORE</a></div>
+            </div>            
+        </div>
+
+        <div id="welcome-screen2">
+
+            <hr style="width: 42%; margin-bottom: -.1%;">
+            <h1>Websites Built with You in Mind</h1>
+            <hr style="width: 42%; margin-top: -.1%; margin-bottom: 5%">
+
+            <div id="intro-vid-wrapper" class="col-12">
+                <video id="intro-vid">
+                    <source src="Videos/GenericIntroductionVid.mp4" type="video/mp4">
+                </video>
+                <div id="media-buttons-wrapper">
+                    <button id="pause-play-button" onclick="playVideo()">Play</button>
+                    <button id="reset-button" onclick="resetVideo()">Restart</button>
+                </div>
+            </div>
+
+            <div id="vid-list-wrapper" class="wow fadeIn animated" data-delay=".1s">
+                <ul>
+                    <li>Top-Tier Services</li>
+                    <li>Affordable Pricing Plans</li>
+                    <li>Fully Customizable Website Layout</li>
+                    <li>Integrated Functionality</li>
+                    <li id="vid-bottom-listing">Intuitive User Experience</li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="welcome-screen3">
+            <h1>What we can do for your Business</h1>
+            <p id="screen3-intro-para">We are dedicated to work with our clients to create a webspace that best represents their business and culture. At Sheek Media, we are devoted to set out and contribute a world of innovation and art through the limitless possibilites of the development web.  Using the wide variety of tools at our disposal, we strive to capture your vision of the business and compose it into an arrangement best suited to your needs.</p>
+
+            <hr style="width: 70%; margin-top: 5%; margin-bottom: 5%;">
+
+            <div id="three-icons-wrapper">
+                <div class="card col-lg-3 col-md-3 wow fadeIn animated" data-wow-delay="0s">
+                    <img class="card-img-top" src="Icons/Monitor.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p>Own a unique webspace that allows your business to gain notice.</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-3 wow fadeIn animated" data-wow-delay=".1s">
+                    <img class="card-img-top" src="Icons/Wifi.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p>Reach a larger audience and consumer base.</p>
+                    </div>
+                </div>
+                <div class="card col-lg-3 col-md-3 wow fadeIn animated" data-wow-delay=".2s">
+                    <img class="card-img-top" src="Icons/Working.png" alt="Card image cap">
+                    <div class="card-body">
+                        <p>Recieve constant web support through our dedicated team.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="welcome-screen4">
+            <div id="screen4-accent-bar-top"></div>
+            <h1>Here are a few of our trusted clients:</h1>
+            <h2>We ensure that all of our clients ideas and visions are all taken into account, and are executed in the most accurate and best form possible.</h2>
+
+            <div id="clients-container">
+                <div class="card col-xl-2 col-lg-3 col-md-5 col-sm-5">
+                    <div class="card-body">
+                        <img src="Pictures/AmazonLogo.png" alt="">
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-5 col-sm-5">
+                    <div class="card-body">
+                        <img src="Pictures/IBMLogo.png" alt="">
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-5 col-sm-5">
+                    <div class="card-body">
+                        <img src="Pictures/IntelLogo.png" alt="">
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-5 col-sm-5">
+                    <div class="card-body">
+                        <img src="Pictures/MicrosoftLogo.png" alt="">
+                    </div>
+                </div>
+                <div class="card col-xl-2 col-lg-3 col-md-5 col-sm-5">
+                    <div class="card-body">
+                        <img src="Pictures/OracleLogo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <hr style="margin-top: 5%; margin-bottom: 5%;">
+
+            <h3>And from our previous clients: </h3>
+
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h1><i>"Quality production value"</i></h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1><i>"This company is really gonna change the world."</i></h1>
+                    </div>
+                    <div class="carousel-item">
+                        <h1><i>"These guys are the best out there!"</i></h1>
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <span id="sheek-column" class="footer-column col-lg-3 col-md-5">
+                <div id="sheek-logo-footer">
+                    <img src="Pictures/FinalSheekMediaLogo.png" alt="Sheek-logo">
+                </div>
+                <div id="footer-media-container">
+                    <h2>Follow Us On:</h2>
+                    <div class="footer-break-line"></div>
+                    <div id="footer-icons">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-google"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-youtube"></a>
+                        <a href="#" class="fa fa-linkedin"></a>
+                    </div>
+
+                    <h2>Contact Us:</h2>
+                    <div class="footer-break-line"></div>
+                    <div id="footer-contact">
+                        <h3>5500 Campanile Drive, SD, 92128</h3>
+                        <h3>Phone(Toll-Free): (858)-263-5352</h3>
+                        <h3>SheekMedia@sdsu.edu</h3>
+                    </div>
+
+                </div>
+            </span>
+            <span class="footer-column col-lg-3 col-md-5">
+                <h1>Connect</h1>
+                <a href="#">Facebook</a>
+                <br>
+                <a href="#">Twitter</a>
+                <br>
+                <a href="#">Google+</a>
+                <br>
+            </span>
+            <span class="footer-column col-lg-3 col-md-5">
+                <h1>Company</h1>
+                <a href="#">Our Story</a>
+                <br>
+                <a href="#">Investors</a>
+                <br>
+                <a href="#">FAQ</a>
+                <br>
+            </span>
+            <span class="footer-column col-lg-3 col-md-5">
+                <h1>Other Services</h1>
+                <a href="#">Sheek Frames</a>
+                <br>
+                <a href="#">Sheek Development</a>
+                <br>
+                <a href="#">Sheek Airlines</a>
+                <br>
+            </span>
+        </div>
+
+        <script>
+            var video = document.getElementById("intro-vid");
+            var btn = document.getElementById("pause-play-button");
+            var resetbtn = document.getElementById("reset-button");
+
+            function playVideo() {
+                if (video.paused) {
+                    video.play();
+                    btn.innerHTML = "Pause";
+                } else {
+                    video.pause();
+                    btn.innerHTML = "Play";
+                }
+            }
+
+            function resetVideo() {
+                video.pause();
+                video.currentTime = 0;
+                btn.innerHTML = "Play";
+            }
+        </script>
+
+    </body>
+</html>
