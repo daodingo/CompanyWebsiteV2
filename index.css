@@ -81,7 +81,7 @@ body, html {
     }
     #welcome-screen1 {
         background-color: #959595 !important;
-        background-image: url(1.jpg);
+        background-image: url(Pictures/CollapsedBackground.jpg);
         background-size: cover;
     }
     #sheek-column {
