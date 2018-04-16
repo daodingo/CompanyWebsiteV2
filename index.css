@@ -386,9 +386,10 @@ a.animated-button.victoria-three:hover:after {
 
 #welcome-screen2 h1 {
     color: #29bea2;
-    width: 35%;
+    width: 50%;
     margin: auto;
     font-weight: bold;
+    text-align: center;
 }
 
 #intro-vid-wrapper {}
