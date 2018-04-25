@@ -24,44 +24,51 @@
     </head>
     <body class="container-fluid">
 
-        <nav class="navbar navbar-expand-custom">
-            <a class="navbar-brand" href="index.html"><img id="sheek-logo-top" src="Pictures/FinalSheekMediaLogo.png" alt="SheekLogo"></a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTarget" aria-controls="navbarTogglerTarget" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerTarget">
-                <ul class="navbar-nav mt-2 mt-lg-0" id="nav-options-wrapper">
-                    <li class="nav-item current-page"><a class="nav-link" href="index.html">Welcome</a></li>
-                    <li class="nav-item"><a class="nav-link" href="OurTeam.html">Our Team</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
-                    <li id="last-dropdown-nav-button" class="nav-item"><a class="nav-link" href="GetStarted.html">Get Started</a></li>
-                    <li id="last-nav-button" class="nav-item ignore-underline"><a href="GetStarted.html" class="nav-link btn animated-button victoria-three">GET STARTED</a></li>
-                </ul>
-            </div>
-        </nav>
-
         <div id="welcome-screen1">
-            <video autoplay muted loop id="background-video">
+            <video autoplay muted loop id="background-video" class="fadeIn animated">
                 <source src="Videos/darktintworkbackground.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
+
+            <nav class="navbar navbar-expand-custom">
+                <a class="navbar-brand" href="index.html"><img id="sheek-logo-top" src="Pictures/FinalSheekMediaLogo.png" alt="SheekLogo"></a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerTarget" aria-controls="navbarTogglerTarget" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerTarget">
+                    <ul class="navbar-nav mt-2 mt-lg-0" id="nav-options-wrapper">
+                        <li class="nav-item current-page"><a class="nav-link" href="index.html">Welcome</a></li>
+                        <li class="nav-item"><a class="nav-link" href="OurTeam.html">Our Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                        <li id="last-dropdown-nav-button" class="nav-item"><a class="nav-link" href="GetStarted.html">Get Started</a></li>
+                        <li id="last-nav-button" class="nav-item ignore-underline"><a href="GetStarted.html" class="nav-link btn animated-button victoria-three">GET STARTED</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+
+
+
+
 
             <div id="center-block1">
                 <div class="centered-text fadeIn animated">Explore the Possibilites of Fast and Responsive, Contemporary Web Design </div>
                 <div id="center-button-wrapper"><a href="Gallery.html" class="btn animated-button victoria-one fadeIn animated">EXPLORE</a></div>
             </div>            
+
         </div>
 
         <div id="welcome-screen2">
 
-            <hr style="width: 42%; margin-bottom: -.1%;">
+            <hr style="width: 95%; margin-bottom: -.1%;">
             <h1>Websites Built with You in Mind</h1>
-            <hr style="width: 42%; margin-top: -.1%; margin-bottom: 5%">
+            <hr style="width: 95%; margin-top: -.1%; margin-bottom: 5%">
 
             <div id="intro-vid-wrapper" class="col-12">
                 <video id="intro-vid">
@@ -191,12 +198,24 @@
                     <h2>Follow Us On:</h2>
                     <div class="footer-break-line"></div>
                     <div id="footer-icons">
-                        <a href="#" class="fa fa-facebook"></a>
-                        <a href="#" class="fa fa-twitter"></a>
-                        <a href="#" class="fa fa-google"></a>
-                        <a href="#" class="fa fa-instagram"></a>
-                        <a href="#" class="fa fa-youtube"></a>
-                        <a href="#" class="fa fa-linkedin"></a>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-facebook"></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-twitter"></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-google"></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-instagram"></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-youtube"></a>
+                        </div>
+                        <div class="col-3">
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
                     </div>
 
                     <h2>Contact Us:</h2>
