@@ -182,7 +182,13 @@ body, html {
     }
 }
 
-/*this keeps the vid radio when the screen gets large*/
+@media (max-width: 700px) {
+    #welcome-screen1 .centered-text {
+        font-size: 5vw !important;
+    }
+}
+
+/*this keeps the vid ratio when the screen gets large*/
 @media screen and (max-width: 7050px) {
     #background-video {
         min-height: 100%;
@@ -271,7 +277,7 @@ button .navbar-toggler-icon {
     margin-left: 50%;
     margin-top: 15%;
     transform: translate(-50%, -50%);
-    font-size: 3vw;
+    font-size: 40px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-shadow: 2px 2px 4px rgb(56, 56, 56);
     text-align: center;
