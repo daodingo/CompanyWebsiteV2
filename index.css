@@ -93,9 +93,7 @@ body, html {
 /*keep collpased nav button from overlapping logo at small widths*/
 @media (max-width: 380px) {
     .navbar > button {
-        /*        position: relative;*/
         left: 0;
-        bottom: 0;
     }
 }
 
