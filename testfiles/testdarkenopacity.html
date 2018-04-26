@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+        <style>
+            .vividworknav {
+                width: 33.333%;
+                height: auto;
+                float: left;
+                padding: 0;
+                position: relative;
+                background-color: black;
+            }
+
+            .vividworknav:hover img {
+                opacity: 0.3;
+            }
+
+            .vividworknav:hover .work-text-content {
+                opacity: 1; 
+            }
+
+            .vividworknav img {
+                padding: 0;
+                width: 100%;
+                display: block;
+                opacity: 1;
+            }
+
+            .vividworknav img,
+            .work-text-content {
+                -webkit-transition: opacity 0.5s ease-out;
+                -moz-transition: opacity 0.5s ease-out;
+                -o-transition: opacity 0.5s ease-out;
+                transition: opacity 0.5s ease-out;
+            }
+
+            .work-text-content {
+                position: absolute;
+                color: white;
+                left: 0;
+                top: 25%;
+                right: 0;
+                bottom: 0;
+                font-size: 24px;
+                text-align: center;
+                opacity: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="vividworknav">
+            <img src="http://www.gettyimages.co.uk/gi-resources/images/Homepage/Category-Creative/UK/UK_Creative_462809583.jpg" />
+            <div class="work-text-content">
+                <p>VIVID VAPOURS</p>
+            </div>
+        </div>
+    </body>
+</html>
