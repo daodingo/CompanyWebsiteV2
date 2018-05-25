@@ -9,7 +9,6 @@
         <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -25,8 +24,7 @@
         </script>
     </head>
     <body class="container-fluid">
-
-
+       
         <nav class="navbar navbar-expand-custom">
             <a class="navbar-brand" href="index.html"><img id="sheek-logo-top" src="Pictures/finalsheekmedialogov2.png" alt="SheekLogo"></a>
 
@@ -37,111 +35,120 @@
             <div class="collapse navbar-collapse" id="navbarTogglerTarget">
                 <ul class="navbar-nav mt-2 mt-lg-0" id="nav-options-wrapper">
                     <li class="nav-item"><a class="nav-link" href="index.html">Welcome</a></li>
-                    <li class="nav-item current-page"><a class="nav-link" href="OurTeam.html">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="OurTeam.html">Our Team</a></li>
                     <li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
                     <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
+                    <li class="nav-item current-page"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>
                     <li id="last-dropdown-nav-button" class="nav-item"><a class="nav-link" href="GetStarted.html">Get Started</a></li>
                     <li id="last-nav-button" class="nav-item ignore-underline"><a href="GetStarted.html" class="nav-link btn animated-button victoria-three">GET STARTED</a></li>
                 </ul>
             </div>
         </nav>
 
-        <!--            <div class="green-accent-bar"></div>-->
-
-        <div id="our-team-screen1">
-            <div id="team-intro-div">
-                <h1>Meet The Team</h1>
-                <img id="team-image" class="fadeIn animated" src="Pictures/Group-ShotTemp.jpg" alt="group picture">
-                <p class="fadeInUp animated">We at Sheek Media are a close group of collegiate developers who are trying to build a better internet experience. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore minima dolores quas numquam laudantium cupiditate nihil harum, placeat fugit saepe nobis possimus quisquam deserunt reiciendis inventore officiis! Beatae, iste, vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae atque eligendi hic ut, adipisci. Dolor praesentium odit nesciunt voluptatum, magnam, totam ratione nulla, quidem accusamus magni neque explicabo ipsum pariatur. We all have a technical background of computer science and lorem ipsum. This is us.</p>
-                <h2 class="fadeInUp animated"><i>"PEOPLE WHO ARE CRAZY ENOUGH TO THINK THEY CAN CHANGE THE WORLD ARE THE ONES WHO DO."</i></h2>
-            </div>
-
-            <div id="team-trait-div" class="fadeInUp animated">
-                <h1 class="offset-lg-2 offset-md-2">A diverse set of technical and creative skills</h1>
-                <ul class="offset-lg-2 offset-md-2">
-                    <li><span>Building user-friendly and responsive websites customized for the optimized consumer experience</span></li>
-                    <li><span>Utilization of a wide variety of web-based tools that are on the bleeding edge of design technology</span></li>
-                    <li><span>Innovative design that best captures and accentuates the vision of our clients</span></li>
-                    <li><span>Technical backgrounds in computer science that support efficient and inventive design</span></li>
-                    <li><span>Collective ability to organize and fabricate projects that capture and stimulate perception</span></li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div id="members-div" class="fadeIn animated wow">
-            <hr id="ourteam-topline">
-            <h2>Our Team</h2>
-            <hr id="ourteam-bottomline">
-            <div class="members-row">
-                <div class="card col-lg-2 col-md-5 col-sm-5">
-                    <div class="image-portrait-div zoom" id="team-member1">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Shekib Aziz</h5>
-                        <h6>Lead Coordinator</h6>
-                        <p class="card-text">Hello, I am a member of Sheek Media, and this is some test text about myself</p>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-5 col-sm-5">
-                    <div class="image-portrait-div zoom" id="team-member2">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Adam Elmore</h5>
-                        <h6>UI Design Specialist</h6>
-                        <p class="card-text">Hello, I am a member of Sheek Media, and this is some test text about myself</p>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-5 col-sm-5">
-                    <div class="image-portrait-div zoom" id="team-member3">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Derek Pham</h5>
-                        <h6>Head of Marketing</h6>
-                        <p class="card-text">Hello, I am a member of Sheek Media, and this is some test text about myself</p>
-                    </div>
-                </div>
-                <div class="card col-lg-2 col-md-5 col-sm-5">
-                    <div class="image-portrait-div zoom" id="team-member4">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Mustafa Hayeri</h5>
-                        <h6>Core Developer</h6>
-                        <p class="card-text">Hello, I am a member of Sheek Media, and this is some test text about myself</p>
-                    </div>
+        <div id="contact-us-screen1">
+            <div id="contact-us-top-div">
+                <div id="contact-us-centered-text">
+                    <h1>Contact Us</h1>
                 </div>
             </div>
-            <div class="members-row">
-                <div class="card col-lg-2 col-md-5 col-sm-5">
-                    <div class="image-portrait-div zoom" id="team-member5">
-                    </div>
+
+            <div id="contact-us-left-half" class="card col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="card-body">
+                    <h2>Get In Contact With Our Support Team</h2>
+                    <p>Ask about any questions or ideas that you might have. We are quick to respond and will never throw you to an automated response. We do our best to take into consideration all of your requests and concerns, so feel free to ask away.</p>
+
+                    <h3>What can we help you with?</h3>                    
+                    <ul>
+                        <li>Inqueries about your website or ideas - We'll give you a personal consultation on what you want to see, and how we can get there.</li>
+                        <li>Eat jello like a boss and never have to return it - These are some random words to take up space, and aren't lorem ipsum.</li>
+                        <li>Any other concerns and issues you have about your website - throw any other life questions you may have, and then we'll take a crack at it.</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="contact-us-right-half" class="card col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                <div class="card-body">
+
+                    <form action="contactform.php" method="post">
+                        <div class="form-header">Name: <span class="green-asterisk">*</span></div>
+                        <input spellcheck="false" class="input-field" type="text" name="name" placeholder="Full name" required>
+
+                        <div class="form-header">Email: <span class="green-asterisk">*</span></div>
+                        <input spellcheck="false" class="input-field" type="email" name="email" placeholder="Your email" required>
+
+                        <div class="form-header">Phone:</div>
+                        <input spellcheck="false" class="input-field" type="text" name="phone" placeholder="Phone">
+                        
+                        <div class="form-header">Subject:</div>
+                        <input spellcheck="false" class="input-field" type="text" name="subject" placeholder="Subject">
+
+                        <div class="form-header">Tell us what's up: <span class="green-asterisk">*</span></div>
+                        <textarea name="message" id="message-ideas" class="input-field" rows="10" required></textarea>
+                        
+                        
+
+                        <br><br>
+
+                        <input id="contact-submit-button" type="submit" name="submit" value="SEND MESSAGE">
+
+                        <br><br>
+
+                        <h4><span class="green-asterisk">*</span> Indicates required fields</h4>
+                    </form>
+
+                </div>
+            </div>
+
+            <hr style="margin-top: 3%; margin-bottom: 3%;">
+
+
+            <div id="contact-info-header" class="col-12">Contact Information</div>
+
+            <div id="contact-info-container">
+                <div id="contact-square1" class="card offset-xl-2 offset-lg-2 col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="card-body">
-                        <h5 class="card-title">Quang Tran</h5>
-                        <h6>Graphics Consultant</h6>
-                        <p class="card-text">Hello, I am a member of Sheek Media, and this is some test text about myself</p>
+                        <h3>Location</h3>
+                        <br>
+                        <div class="info-content">5500 Campanile Drive, San Diego, Ca 92182</div>
+                        <br>
+                        <div class="info-content">Phone(Toll Free): (858)-263-5352</div>
+                        <br>
+                        <div class="info-content">SheekMediaSupport@sdsu.edu</div>
+
                     </div>
                 </div>
-                <div class="card col-lg-2 col-md-5 col-sm-5">
-                    <div class="image-portrait-div zoom" id="team-member7">
-                    </div>
+                <div id="contact-square2" class="card col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="card-body">
-                        <h5 class="card-title">Shawnt Demirdjian</h5>
-                        <h6>Applications Developer</h6>
-                        <p class="card-text">Hello, I am a member of Sheek Media, and this is some test text about myself</p>
+                        <h3>Mailing Address</h3>
+                        <br>
+                        <div class="info-content">South Campus Plaza North Tower</div>
+                        <br>
+                        <div class="info-content">5140 College Ave</div>
+                        <br>
+                        <div class="info-content">San Diego, CA 92115</div>
+                        <br><br>
+
                     </div>
                 </div>
-                <div class="card col-lg-2 col-md-5 col-sm-5">
-                    <div class="image-portrait-div zoom" id="team-member8">
-                    </div>
+                <div id="contact-square3" class="card offset-xl-2 offset-lg-2 col-xl-4 col-lg-4 col-md-12 col-sm-12">
                     <div class="card-body">
-                        <h5 class="card-title">Jan Toma</h5>
-                        <h6>User Content Director</h6>
-                        <p class="card-text">Hello, I am a member of Sheek Media, and this is some test text about myself</p>
+                        <h3>Hours</h3>
+                        <br>
+                        <p>These are the hours where we more than welcome you to inquire about consultations.</p>
+                        <br>
+                        <div class="info-content">Monday-Friday: 8am - 6pm</div>
+                        <div class="info-content">Saturday-Sunday: 9am - 3pm</div>
+                    </div>
+                </div>
+                <div id="contact-square4" class="card col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="card-body">
+                        <h3>Further Support</h3>
+                        <br>
+                        <p>Our team is available during the provided hours and would be happy to assist you further if any unresolved issues arise. Feel free to call or contact us with the provided phone and email information.</p>
                     </div>
                 </div>
             </div>
+
         </div>
 
         <div class="footer">

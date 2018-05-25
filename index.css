@@ -220,7 +220,8 @@ body, html {
     width: 17%;
 }
 #sheek-logo-top {
-    width: 200px;
+    width: 140px;
+    margin-left: 20%;
 }
 
 .navbar > button {
@@ -235,7 +236,7 @@ button .navbar-toggler-icon {
 
 .navbar a { /*Navbar options*/
     text-decoration: none; /*gets rid of underline on hover*/
-    font-size: 13px;
+    font-size: 14px;
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
     color: #29bea2 !important;
@@ -688,6 +689,11 @@ a.animated-button.victoria-three:hover:after {
     margin-bottom: 3%;
 }
 
+#team-intro-div #team-image {
+    width: 70%;
+    margin-bottom: 5%;
+}
+
 #team-intro-div > p {
     width: 80%;
     margin: auto;
@@ -762,6 +768,11 @@ a.animated-button.victoria-three:hover:after {
     display: inline-block;
     margin-right: 1%;
     margin-bottom: 3%;
+}
+
+.members-row .card .card-body {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .members-row .card .image-portrait-div {
@@ -979,7 +990,7 @@ a.animated-button.victoria-three:hover:after {
     font-weight: bold;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    border-radius: 7%;
+    border-radius: 2%;
 }
 
 #project1 img {
@@ -1140,10 +1151,17 @@ a.animated-button.victoria-three:hover:after {
     background-image: url(http://backgroundcheckall.com/wp-content/uploads/2017/12/web-development-background-2.jpg);
 }
 
-#blog-container .info-div h2 {
+#blog-container .info-div .blog-header {
     margin-top: 1%;
     margin-bottom: 1%;
     text-decoration: underline;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+#blog-container .info-div .blog-header:hover {
+    color: #118973;
 }
 
 #blog-container .info-div h3 {
@@ -1157,6 +1175,10 @@ a.animated-button.victoria-three:hover:after {
 
 #blog-container .info-div p {
     margin-bottom: 1.5%;
+}
+
+#blog-container #share-text {
+    text-decoration: underline;
 }
 
 #blog-container .fa {
@@ -1191,8 +1213,8 @@ a.animated-button.victoria-three:hover:after {
     background: #007bb5;
     color: white;
 }
-.fa-reddit {
-    background: #ff5700;
+.fa-tumblr {
+    background: #2c4762;
     color: white;
 }
 
@@ -1519,7 +1541,7 @@ a.animated-button.victoria-three:hover:after {
     border-radius: 8px;
 }
 
-#comments-ideas {
+#message-ideas {
     height: 200px !important;
     padding-left: .5% !important;
     padding-top: .5% !important;
@@ -1553,6 +1575,14 @@ a.animated-button.victoria-three:hover:after {
 
 
 /*FOOTER START*/
+/*MEDIA QUERIES START*/
+@media (max-width: 767px) {
+    #regular-column {
+        text-align: center !important;
+        padding: 0 !important;
+    }
+}
+/*MEDIA QUEIRES END*/
 .footer {
     left: 0;
     width: 100%;
@@ -1567,7 +1597,8 @@ a.animated-button.victoria-three:hover:after {
 
 .footer-column h1 {
     margin-top: 15%;
-    font-size: 27px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .footer-column {
@@ -1578,13 +1609,25 @@ a.animated-button.victoria-three:hover:after {
     /*    margin: 0% -2%;*/
 }
 
+#regular-column {
+    text-align: left;
+    padding-left: 13%;
+    margin-top: 1.5%;
+}
+
+#regular-column > a {
+    line-height: 4;
+    font-size: 12px;
+    color: #29bea2;
+}
+
 #sheek-column {
     /*    padding-right: 5%;*/
     margin-left: -5%;
-    margin-right: 5%;
+    margin-right: 3%;
 }
 
-.footer-column a {
+#sheek-column a {
     text-align: center;
     line-height: 2.5;
 }
@@ -1595,7 +1638,7 @@ a.animated-button.victoria-three:hover:after {
 }
 
 .footer-column img {
-    width: 200px;
+    width: 75px;
 }
 
 #footer-media-container {}
@@ -1611,9 +1654,10 @@ a.animated-button.victoria-three:hover:after {
 }
 
 .footer-break-line {
-    width: 100%;
+    width: 70%;
     height: 2px;
     background-color: gray;
+    margin: auto;
 }
 
 #footer-icons {
@@ -1629,8 +1673,8 @@ a.animated-button.victoria-three:hover:after {
 
 #footer-icons .fa {
     padding: 0px;
-    font-size: 14px;
-    width: 35px;
+    font-size: 12px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -1656,6 +1700,12 @@ a.animated-button.victoria-three:hover:after {
     margin: auto;
     text-align: center;
     margin-top: 3%;
+}
+
+#footer-copyright {
+    width: 100%;
+    font-size: 13px;
+    margin-top: 5%;
 }
 
 /*FOOTER END*/
