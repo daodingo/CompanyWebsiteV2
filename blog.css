@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    min-height: 500px;
+    min-width: 300px;
+}
+
+.container-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/*------------------------------------------------------------Blog1-START*/
+#blogpost-template-container {
+    height: 100%;
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blogpost-header {
+    text-decoration: underline;
+}
+/*------------------------------------------------------------Blog1-END*/

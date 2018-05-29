@@ -378,7 +378,7 @@ a.animated-button.victoria-three:hover:after {
 
 
 
-/*-------------------------------------------Welcome Screen2 START-------------------------------------*/
+/*-------------------------------------------Welcome Screen introvid START-------------------------------------*/
 
 /*MEDIA QUERIES START*/
 /*this is for the pause-play stuff*/
@@ -396,7 +396,7 @@ a.animated-button.victoria-three:hover:after {
     }
 }
 /*MEDIA QUERIES END*/
-#welcome-screen2 {
+#welcome-screen-introvid {
     background-color:#f0f0ee;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -404,7 +404,7 @@ a.animated-button.victoria-three:hover:after {
     padding-bottom: 7%;
 }
 
-#welcome-screen2 h1 {
+#welcome-screen-introvid h1 {
     color: #29bea2;
     width: 95%;
     margin: auto;
@@ -488,25 +488,130 @@ a.animated-button.victoria-three:hover:after {
 #vid-bottom-listing {
     border-bottom: 1px solid #e5e5e5;
 }
-/*------------------------------------------Welcome Screen2 END----------------------------------------*/
+/*------------------------------------------Welcome Screen introvid END----------------------------------------*/
 
 
 
 
+/*------------------------------------------Welcome Screen Cleancut START----------------------------------------*/
+#welcome-screen-cleancut {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cleancut-left {
+    display: inline-block;
+    margin-right: -5px;
+}
+
+.cleancut-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/*-----Break1-----*/
+#break1 {
+    text-align: left;
+    margin: 8% 0% 10% 0%;
+}
+
+#break1 img {
+    width: 85%;
+    margin: 5% 0%;
+}
+
+#break1 h1 {
+    font-size: 15px;
+    color: #02dbb2;
+    margin-top: 15%;
+}
+
+#break1 h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#break1 p {
+    margin-top: 5%;
+    line-height: 2;
+    width: 70%;
+}
+
+#break1 a {
+
+}
+
+
+/*-----Break2-----*/
+#break2 {
+    text-align: left;
+    margin: 8% 0% 10% 0%;
+    padding-left: 5%;
+}
+
+#break2 h1 {
+    font-size: 15px;
+    color: #02dbb2;
+    margin-top: 15%;
+}
+
+#break2 h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#break2 p {
+    margin-top: 5%;
+    width: 90%;
+    line-height: 2;
+}
+
+#break2 img {
+    width: 100%;
+}
+
+/*-----Break3-----*/
+#break3 {
+    text-align: left;
+    margin: 8% 0% 10% 0%;
+}
+
+#break3 h1 {
+    font-size: 15px;
+    color: #02dbb2;
+    margin-top: 15%;
+}
+
+#break3 h2 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#break3 p {
+    margin-top: 5%;
+    width: 90%;
+    line-height: 2;
+}
+
+#break3 img {
+    width: 80%;
+}
+
+#break3 a {
+    text-align: left;
+}
+/*------------------------------------------Welcome Screen Cleancut END----------------------------------------*/
 
 
 
 
-
-
-/*------------------------------------------Welcome Screen3 START--------------------------------------*/
-#welcome-screen3 {
+/*------------------------------------------Welcome Screen business START--------------------------------------*/
+#welcome-screen-business {
     font-family: 'Montserrat', sans-serif;
     margin-top: 5%;
     padding-bottom: 10%;
 }
 
-#welcome-screen3 h1 {
+#welcome-screen-business h1 {
     text-align: center;
     color: #29bea2;
     margin: auto;
@@ -552,7 +657,7 @@ a.animated-button.victoria-three:hover:after {
 #three-icons-wrapper .card img {
     width: 150px;
 }
-/*------------------------------------------Welcome Screen3 END----------------------------------------*/
+/*------------------------------------------Welcome Screen business END----------------------------------------*/
 
 
 
@@ -561,16 +666,16 @@ a.animated-button.victoria-three:hover:after {
 
 
 
-/*------------------------------------------Welcome Screen4 START--------------------------------------*/
+/*------------------------------------------Welcome Screen clients START--------------------------------------*/
 /*MEDIA QUERIES START*/
 @media (max-width: 600px) {
-    #welcome-screen4 #demo .carousel-inner h1{
+    #welcome-screen-clients #demo .carousel-inner h1{
         font-size: 7vw !important;
     }
 }
 /*MEDIA QUERIES END*/
 
-#welcome-screen4 {
+#welcome-screen-clients {
     background-color:#f0f0ee;
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 5%;
@@ -582,18 +687,18 @@ a.animated-button.victoria-three:hover:after {
     background-color: #29bea2;
 }
 
-#welcome-screen4 > h1 {
+#welcome-screen-clients > h1 {
     width: 85%;
     margin: auto;
 }
 
-#welcome-screen4 h1 {
+#welcome-screen-clients h1 {
     text-align: center;
     margin-top: 5%;
     font-weight: bold;
 }
 
-#welcome-screen4 h2 {
+#welcome-screen-clients h2 {
     text-align: center;
     font-size: 25px;
     width: 80%;
@@ -605,7 +710,9 @@ a.animated-button.victoria-three:hover:after {
 #clients-container {
     text-align: center;
     margin: auto;
-
+    background-color: #034034;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #clients-container .card {
@@ -616,6 +723,7 @@ a.animated-button.victoria-three:hover:after {
 }
 #clients-container .card-body {
     padding: 0;
+    filter: grayscale(100%);
 }
 
 #clients-container .card-body img {
@@ -623,22 +731,22 @@ a.animated-button.victoria-three:hover:after {
     height: 70px;
 }
 
-#welcome-screen4 h3 {
+#welcome-screen-clients h3 {
     text-align: center;
     font-weight: bold;
     text-decoration: underline;
 }
 
-#welcome-screen4 #demo .carousel-inner {
+#welcome-screen-clients #demo .carousel-inner {
     margin-top: -2%;
 }
 
-#welcome-screen4 #demo .carousel-inner h1{
+#welcome-screen-clients #demo .carousel-inner h1{
     height: 150px;
     font-size: 40px;
     color: #adadad;
 }
-/*------------------------------------------Welcome Screen4 END----------------------------------------*/
+/*------------------------------------------Welcome Screen clients END----------------------------------------*/
 
 
 
@@ -962,7 +1070,7 @@ a.animated-button.victoria-three:hover:after {
 }
 
 #gallery-container .card:hover .card-body img {
-    opacity: 0.15;
+    opacity: 0.25;
 }
 
 #gallery-container .card:hover .hover-text {
@@ -987,45 +1095,45 @@ a.animated-button.victoria-three:hover:after {
     margin: auto;
     text-align: center;
     opacity: 0;
-    font-weight: bold;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
-    border-radius: 2%;
 }
 
 #project1 img {
-    margin-left: -75%;
+    margin-left: -25%;
 }
 #project2 img {
-    margin-left: -75%;
+    margin-left: -25%;
 }
 #project3 img{
-    margin-left: -75%;
+    margin-left: -25%;
 }
 #project4 img {
-    margin-left: -75%;
+    margin-left: -25%;
 }
 #project5 img {
-    margin-left: -75%;
+    margin-left: -25%;
 }
 #project6 img {
     width: 100%;
 }
 /*this is where original gallery stops*/
 #project7 img {
-    margin-left: -75%;
+    margin-left: -25%;
 }
 #project8 img {
 }
 #project9 img {
-    margin-left: -20%;
+    margin-left: -25%;
 }
 #project10 img {
-    margin-left: -30%;
+    margin-left: -25%;
 }
 #project11 img {
+    margin-left: -20%;
 }
 #project12 img {
+    margin-left: -25%;
 }
 
 .gallery-zoom:hover {
@@ -1295,6 +1403,7 @@ a.animated-button.victoria-three:hover:after {
     height: 20vw;
     background-image: url(Pictures/PeopleWorking.jpg);
     background-repeat: no-repeat;
+    background-position: top;
     position: relative;
     text-align: center;
     margin: 0% 0% 5% 0%;
@@ -1310,8 +1419,8 @@ a.animated-button.victoria-three:hover:after {
 
 #contact-us-centered-text h1 {
     font-family: 'Montserrat', sans-serif;
-    color: white;
-    text-shadow: 2px 2px 4px rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
     font-size: 45px;
     font-weight: bold;
 }
@@ -1424,6 +1533,7 @@ a.animated-button.victoria-three:hover:after {
 }
 
 #contact-info-container * h3{
+    text-align: center;
     font-weight: bold;
     font-size: 30px;
     text-decoration: underline;
@@ -1439,26 +1549,37 @@ a.animated-button.victoria-three:hover:after {
 }
 
 #contact-square1 {
-    margin-right: -5px;
     padding: 0;
-    background: none;
+    border-right: solid thin gray;
 }
+
+#contact-square1 .card-body > h3 {
+    text-align: left;
+}
+
 #contact-square2 {
+    margin-left: -5px;
     padding: 0;
-}
-#contact-square3 {
-    margin-right: -5px;
-    padding: 0;
-}
-#contact-square4 {
-    padding: 0; 
+    border-left: solid 1px gray;
 }
 
 .info-content {
-    line-height: 2.5;
+    /*    line-height: 5;*/
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-size: 20px;
     width: 100% !important;
 }
 
+.info-content:before {
+    content:'\25B7';
+}
+
+#contact-info-container h2 {
+    text-decoration: underline;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
 /*-------------------------------------------------------------CONTACT-US-END-----------------------------------------------------------*/
 
 
@@ -1485,6 +1606,7 @@ a.animated-button.victoria-three:hover:after {
 
 #get-started-screen1 {
     /*        background-color: #ededed;*/
+    font-family: 'Montserrat', sans-serif;
 }
 
 #start-header {
@@ -1493,6 +1615,11 @@ a.animated-button.victoria-three:hover:after {
     font-family: 'Montserrat', sans-serif;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+#lets-begin-para {
+    text-align: center;
+    margin-top: 2%;
 }
 
 #start-divider {
@@ -1572,6 +1699,39 @@ a.animated-button.victoria-three:hover:after {
 /*-------------------------------------------------------------GETSTARTED-END-----------------------------------------------------------*/
 
 
+/*-------------------------------------------------------------FAQ-START-----------------------------------------------------------*/
+#FAQ-screen-container {
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+#FAQ-screen-container > h1 {
+    color: #29bea2;
+    margin: 2% 0% 0% 0%;
+}
+
+.question-block {
+    height: 200px;
+}
+
+.question-block h2 {
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 2%;
+}
+
+.question-block p {
+    width: 70%;
+}
+
+#FAQ-screen-container a {
+    font-size: 15px;
+    font-weight: bold;
+    color: #29bea2;
+}
+/*-------------------------------------------------------------FAQ-END-----------------------------------------------------------*/
+
 
 
 /*FOOTER START*/
@@ -1649,7 +1809,7 @@ a.animated-button.victoria-three:hover:after {
 }
 
 #footer-media-container h3 {
-    font-size: 10px;
+    font-size: 13px;
     color: #e6e6e6;
 }
 
